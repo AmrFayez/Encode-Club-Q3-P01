@@ -36,7 +36,11 @@ messages.append(
      }
 )
 
-dish = input("Type the name of the dish you want a recipe for:\n")
+dish = input(("Welcome to Middle East Chef, The Chef is programmed to respond to three types of inputs\n"
+                        " a. Ingredient-based dish suggestions\n"
+                        " b. Recipe requests for specific dishes\n"
+                        " c. Recipe critiques and improvement suggestions\n"
+                        "Please write here what you want the smart chef to help with:"))
 messages.append(
     {
         "role": "user",
